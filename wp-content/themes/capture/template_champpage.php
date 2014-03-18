@@ -17,17 +17,19 @@ $query = mysql_query("SELECT * FROM champions WHERE id=$id") or die("Error: " . 
 $name = urlencode($row[21]);
  }
  
-echo '<ul>
-  <li>
-    <a href="#" class="button info"><span class="hidden">Champion Information</span></a>
-  </li>
-  <li>
-    <a href="#" class="button lore"><span class="hidden">Champion Lore</span></a>
-  </li>
-  <li>
-    <a href="#" class="button submitted"><span class="hidden">Champion Submitted Material</span></a>
-  </li>
-</ul>';
+echo '
+  <div class="row champ_btns">
+    <div class="span4">
+      <a href="#" class="champ_btn info_btn"><span class="hidden">Champion Information</span></a>
+    </div>
+    <div class="span4">
+      <a href="#" class="champ_btn lore_btn"><span class="hidden">Champion Lore</span></a>
+    </div>
+    <div class="span4">
+      <a href="#" class="champ_btn submitted_btn"><span class="hidden">Champion Submitted Material</span></a>
+    </div>
+  </div>
+';
 
  
     ?>
