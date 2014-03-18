@@ -1,0 +1,99 @@
+#btnbar{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#ahri{
+    border-radius: 20px;
+}
+h1{
+    font-size: 30px;
+    position:relative;
+}
+h2{
+    font-size: 25px;
+    position:relative;
+}
+h3{
+    font-size: 25px;
+    color: #FFFFFF;
+    
+}
+
+
+#contact{
+    text-align: center;
+    background-color: #2E64FE;
+    border-radius: 10px;
+}
+
+#about{
+    text-align: center;
+    background-color: #2E64FE;
+    border-radius: 10px;
+}
+
+#well{
+
+    margin:0 auto;
+    float:none;
+    margin-bottom: 20px;
+}
+
+#aboutlist{
+
+   text-align: left;
+
+
+}
+
+#vertspace{
+    margin-top: 10px;
+}
+
+#noborder{
+    border-style:hidden;
+ 
+}
+
+#nobborder{
+    border-style:hidden;
+    text-align: center;
+
+
+}
+
+#celltop{
+    vertical-align: top;
+}
+
+#lore{
+    font-size:20px;
+    font-family:"Times New Roman", Times, serif;
+    text-align:justify;
+}
+
+#lorequote{
+    font-size:20px;
+    font-family:"Times New Roman", Times, serif;
+    text-align:right;
+   
+}
+
+ul { list-style: none; }
+li {}
+
+.button { display: block; float:left; margin-right:80px }
+.info { background: url('http://giantsheep.net/ash/btn-champ_info.png'); height:43px; width: 283px; }
+.info:hover { background-position: 0px -43px; }
+.info:active { background-position: 0px -86px; }
+
+.lore { background: url('http://giantsheep.net/ash/btn-lore.png'); height:43px; width: 219px; }
+.lore:hover { background-position: 0px -43px; }
+.lore:active { background-position: 0px -86px; }
+
+.submitted { background: url('http://giantsheep.net/ash/btn-submitted.png'); height:43px; width: 339px; }
+.submitted:hover { background-position: 0px -43px; }
+.submitted:active { background-position: 0px -86px; }
+
+

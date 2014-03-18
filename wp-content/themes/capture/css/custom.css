@@ -1,0 +1,13 @@
+#btnbar{
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+#ahri{
+    border-radius: 20px;
+}
+
+#noborders{
+    border-style:hidden;
+}
+
